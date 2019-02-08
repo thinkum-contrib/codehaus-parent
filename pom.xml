@@ -16,19 +16,19 @@
 
 	<groupId>org.codehaus</groupId>
 	<artifactId>codehaus-parent</artifactId>
-	<version>5-SNAPSHOT</version>
+	<version>6-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>Codehaus Parent</name>
-	<url>http://codehaus.org/</url>
-	<description>The Codehaus is a collaborative environment for building open source projects with a strong emphasis on modern languages, focussed on quality components that meet real world needs. </description>
+	<name>Codehaus Parent [thinkum-contrib fork]</name>
+	<url>https://github.com/thinkum-contrib/codehaus-parent</url>
+	<description>The Codehaus is [formerly, was] a collaborative environment for building open source projects with a strong emphasis on modern languages, focused on quality components that meet real world needs.</description>
 
 	<scm>
-		<connection>scm:git:git@github.com:sonatype/codehaus-parent.git</connection>
-		<developerConnection>scm:git:git@github.com:sonatype/codehaus-parent.git</developerConnection>
-		<url>https://github.com/sonatype/codehaus-parent</url>
+		<connection>scm:git:git@github.com:thinkum-contrib/codehaus-parent.git</connection>
+		<developerConnection>scm:git:git@github.com:thinkum-contrib/codehaus-parent.git</developerConnection>
+		<url>https://github.com/thinkum-contrib/codehaus-parent</url>
 	</scm>
-
+<!--
 	<repositories>
 		<repository>
 			<id>codehaus-snapshots</id>
@@ -56,6 +56,7 @@
 			<url>https://nexus.codehaus.org/service/local/staging/deploy/maven2/</url>
 		</repository>
 	</distributionManagement>
+-->
 
 	<build>
 		<plugins>
